@@ -1,6 +1,6 @@
 # Veri Madenciliği Dönem Projesi
-K-Nearest Neighbor benimseyerek UCI Machine Learning
-Repository’den (https://archive.ics.uci.edu/ml/index.php”) Bank Marketing  veri seti
+K-Nearest Neighbor benimseyerek [UCI Machine Learning
+Repository’den](https://archive.ics.uci.edu/ml/index.php”) Bank Marketing  veri seti
 üzerinde sınıflandırma veya kümeleme yapmayı amaçlanmıştır. 
 
 # Adımlar
