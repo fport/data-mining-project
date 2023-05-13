@@ -56,6 +56,17 @@ F1-Score, kesinlik ve duyarlılığın harmonik ortalamasıdır ve modelin perfo
 İkinci satır, gerçekte "yes" (1) olan örnekleri gösterir. 34'ünü doğru bir şekilde "yes" (1) olarak sınıflandırmış ve 118'ini yanlışlıkla "no" (0) olarak sınıflandırmıştır.
 ### Sonuç olarak,
  modelin "no" (0) sınıfını tahmin etmede iyi bir performansı varken, "yes" (1) sınıfını tahmin etmede daha düşük bir performansı vardır. Bu, dengesiz bir veri kümesinden kaynaklanabilir veya modelin eğitimi sırasında bazı önemli özelliklerin dikkate alınmamasından kaynaklanabilir. 
+
+ ### Veri Kümeleme
+
+Verinin kümeleme sonucu aşağıdaki gibidir:
+
+<img width="600" alt="Screenshot 2023-05-14 at 01 23 32" src="https://github.com/fport/data-mining-project/assets/56169582/0a6dda33-2b33-4e92-a7d1-31ac91ef0ce2"> . 
+
+Bu görselleştirme, K-Means algoritması kullanılarak elde edilen kümeleri göstermektedir. Algoritma, veri kümesindeki örnekleri iki kümeye ("0" ve "1") bölmüştür. Her küme, bir özellik uzayında benzer özelliklere sahip örnekleri içerir. Bu özelliklerin her biri, veri kümesindeki bir özelliği temsil eder. 
+
+Bununla birlikte, bu görselleştirme yalnızca ilk iki özelliği göstermektedir. Gerçekte, veri kümesi çok daha fazla boyuta sahip olabilir ve bu boyutlar görselleştirme sırasında ihmal edilmiştir. Bu nedenle, bu görselleştirme, kümelerin gerçek dağılımını tam olarak yakalayamayabilir. Ancak, genel kümeleme eğilimlerini göstermek için yararlı bir araçtır.
+
  ## Görselleştirme
  ### ROC Eğrisi
  ROC (Receiver Operating Characteristic) eğrisi, sınıflandırıcının performansını ölçen bir grafiktir. Eksenlerde, doğru pozitif oranı (True Positive Rate - TPR) ve yanlış pozitif oranı (False Positive Rate - FPR) bulunur. İdeal olarak, ROC eğrisi sol üst köşeye yakın olmalıdır, bu da TPR'nin yüksek ve FPR'nin düşük olduğu anlamına gelir. Bu durumda, ROC eğrisi orta seviyede bir performans göstermektedir.   
